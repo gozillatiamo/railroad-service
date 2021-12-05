@@ -1,0 +1,51 @@
+{
+    "A": {
+        "destinations": {
+            "B": {
+                "distance": 5
+            },
+            "D": {
+                "distance": 5
+            },
+            "E": {
+                "distance": 7
+            }
+        }
+    },
+    "B":{
+        "destinations": {
+            "C": {
+                "distance": 4
+            }
+        }
+    },
+    "C": {
+        "destinations": {
+            "D": {
+                "distance": 8
+            },
+            "E": {
+                "distance": 2
+            }
+        }
+    },
+    "D": {
+        "destinations": {
+            "C": {
+                "distance": 8
+            },
+            "E": {
+                "distance": 6
+            }
+        }
+    },
+    "E": {
+        "destinations": {
+            "B": {
+                "distance": 3
+            }
+        }
+    }
+
+}
+
